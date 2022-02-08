@@ -53,7 +53,7 @@ class Graph(Generic[V]):
     
     # find the vertex at a specific index
     def vertex_at(self, index: int) -> V:
-        return self._vertices(index)
+        return self._vertices[index]
     
     # Find the index of a vertex in the graph
     def index_of(self, vertex: V) -> int:
